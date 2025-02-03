@@ -1,0 +1,134 @@
+:root {
+    --primary-color: hsl(30, 10%, 34%);
+    --secondary-color: hsl(14, 45%, 36%);
+    --rose-heading: hsl(332, 51%, 32%);
+    --rose-body: hsl(330, 100%, 98%);
+    --header-color: hsl(24, 5%, 18%);
+    --border: 1px solid hsl(30, 54%, 90%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: var(--header-color);
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+h5 {
+    color: var(--rose-heading);
+    font-family: "Outfit", serif;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: .5rem;
+}
+
+header {
+    margin-bottom: 1.8rem;
+} 
+
+img {
+    width: 100%;
+    border-radius: 10px;   
+}
+
+p, li {
+    color: var(--primary-color);
+    font-family: "Outfit", serif;
+    font-family: "Outfit", serif;
+    font-size: 1.1rem;
+    margin-bottom: .7rem;
+}
+
+li p {
+    margin-left: .7rem;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 3rem auto;
+    max-width: 375px;
+    padding: 1.5rem 1rem;
+}
+
+.prep-time {
+    background: var(--rose-body);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.Ingredients, .instructions {
+    border-bottom: var(--border);
+    margin: 1rem 0; 
+    padding: 1rem;
+}
+
+.ingredients--list li {
+    list-style-type: square;
+    color: var(--secondary-color);
+}
+
+.instructions li {
+    color: var(--secondary-color); 
+    font-weight: bold;
+}
+
+.instructions li p {
+    font-weight: normal;
+}
+
+ .nutrition ul {
+    list-style: none;
+    padding-inline-start: 1rem;
+} 
+
+.nutrition li {
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+} 
+
+.nutrition span {
+    float: right;
+    margin-right: 10rem;
+    color: var(--secondary-color);
+    font-weight: 600;
+} 
+
+.nutrition li:nth-child(4) {
+    border: none;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        max-width: 320px;
+        background-color: #fff; 
+        align-content: center;
+    }
+
+    h5, p, li {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 2rem;
+        font-size: 1.6rem;
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+}
