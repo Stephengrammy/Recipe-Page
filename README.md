@@ -11,9 +11,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -24,9 +22,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [https://github.com/Stephengrammy/Recipe-Page]
+- Live Site URL: [https://recipe-page-eta-topaz.vercel.app/]
 ## My process
 
 ### Built with
@@ -41,7 +38,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 i got beter with using the width and max-width properties in css and i can use :root to define variables in css 
 
-To see how you can add code snippets, see below:
 
 ```html
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
@@ -61,7 +57,6 @@ To see how you can add code snippets, see below:
 i was unable to perfect align the items under the Nutrition section so i will check out the review and see how others did theirs and i feel like my code has too many manipulation i was trying a lot of different things to see which one works best so i will try to simplify it
 
 ## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/stephengrammy)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/stephengrammy)
 - Twitter - (https://www.twitter.com/@grammy_dev)
 
